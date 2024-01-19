@@ -1,0 +1,196 @@
+ul.navbar-nav>li>a{
+letter-spacing: 0.2rem;
+text-transform: uppercase;
+
+}
+ul.navbar-nav>li.nav-item.dropdown>.dropdown-menu>li>a{
+    letter-spacing: 0.15rem;
+}
+.nav-link{
+    transition: color 1s ease-in-out;
+    color: white !important;
+
+}
+.nav-link:hover{
+    color: #3ABCA3 !important ;
+    transition: color 1s ease-in-out;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: #3ABCA3;
+      
+}
+.list-unstyled li.my-boarder-bottom-red
+{
+    padding: 1.5rem;
+    border-bottom:1px solid red;
+}
+.list-unstyled a{
+    color:  black;
+    text-decoration: none;
+}
+.list-unstyled a:hover
+{
+    color:  #323232;
+}
+.my-list-unstyled{
+    list-style:none;
+}
+.primarna-pozadina{
+    background-color: #720987 !important;
+}
+.sekundarna-pozadina{
+    background-color: #3ABCA3 !important;
+}
+.primarni-tekst {
+    color: white;
+}
+.primarni-tekst a{
+    color: white;
+}
+.dropdown-menu{
+    background-color: #023931 !important;
+}
+.social-icon:hover{
+    color: white !important;
+    background-color: #3ABCA3 !important;
+    border-radius: 10% !important;
+    transition: color 1s ease-in-out;
+}
+.btn.sekundarna-pozadina:hover{
+    background-color: #3ABCA3 !important ;
+    color: white;
+    transition: color 0.4s ease-in-out;
+}
+.card{
+    border: 1px solid #3ABCA3 !important ;
+}
+
+b,strong{
+    color:#3ABCA3 !important;
+}
+.right-line{
+    border-right: 1px solid #3ABCA3 !important;
+    margin: 10px 0;
+}
+.hr{
+    color: #670e77 !important;
+    
+}
+.title-style{
+    color: white !important;
+    text-transform: uppercase;
+    background-color: #023931  !important;
+    border-radius: 10px !important;
+}
+footer{
+    padding: 2rem;
+    background-color: white;
+    margin-top: 2rem;
+}
+footer a{
+    color: black;
+    padding: 0.2 rem;
+    transition: color 0.4s ease-in-out;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #3ABCA3;
+    text-decoration: none;
+
+}
+footer p{
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    color: black;
+}
+.razmak{
+    margin-top: 430px;
+}
+section{
+
+    margin-top: 2rem ;
+}
+.wpb_wrapper{
+    text-align: left;
+    font-family: Open Sans;
+
+}
+.active{
+    background-color: #023931  !important;
+}
+.itm {
+	height: 100vh;
+	min-height: 300px;
+}
+.cap {
+	bottom: 220px;
+	z-index: 2;
+}
+.cap h5 {
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+}
+.cap p {
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+}
+.iner:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 1;
+}
+.kartice{
+    padding: 5rem 0 0 0;
+    background-color: #023931  !important;
+    --primary-color: white !important;
+}
+.kartice-text {
+    color: #048E7B;
+}
+.kartice-name{
+    color: #048E7B;
+}
+.kartice-card{
+    width: 50%;
+}
+.bg-header{
+    background-color: #023931  !important;
+}
+.form-control:focus {
+    border-color: #3ABCA3;
+    box-shadow:0 0 8px #3ABCA3;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #3ABCA3 !important;
+    box-shadow:0 0 8px #3ABCA3 !important;
+    color: white;
+}
+.naslov{
+    color:#3ABCA3;
+}
+.podnaslov{
+    color:#3ABCA3;
+    text-align: left;
+}
+.result-text{
+    color: white;
+    background-color: #3ABCA3;
+    padding: 15px;
+}
+.btn-outline-dark:hover{
+    background-color: #3ABCA3;
+    border-color: #3ABCA3 !important;
+}
+.accordion-button:hover{
+    background-color: #3ABCA3;
+}
